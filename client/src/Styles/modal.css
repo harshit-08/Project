@@ -1,0 +1,39 @@
+.modal__wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+.modal{
+    width: 70%;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    z-index: 1;
+}
+
+.modal button{
+    margin-top: 2rem;
+    padding: .3rem .8rem;
+    background-color: gray;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.modal__list{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.modal__list div{
+    width: 15rem;
+    margin-right: .5rem;
+    padding: .5rem;
+    border-radius: 5px;
+    background-color: rgb(89, 115, 172);
+    color: white;
+}
